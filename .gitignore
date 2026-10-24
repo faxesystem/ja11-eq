@@ -1,0 +1,14 @@
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Never commit firmware images (FiiO's property) or flash journals
+*.bin
+*.upt
+*.journal.json
+
+# Local notes, captures, exports
+*.log
+captures/
+exports/
