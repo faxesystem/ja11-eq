@@ -1,7 +1,10 @@
 # JA11 EQ
 
 A 5-band parametric equalizer for the **FiiO / JadeAudio JA11** USB DAC dongle that runs in your browser.
-You don't need the FiiO app or an Android phone. It works locally in Chrome, Brave or Edge through WebHID.
+You don't need the FiiO app or an Android phone. It works in Chrome, Brave or Edge through WebHID.
+
+**Open it in your browser: <https://faxesystem.github.io/ja11-eq/>**. Nothing to install, and the page talks to the
+dongle directly from your browser.
 
 ---
 
@@ -55,6 +58,8 @@ pre-gain handling are new.
 
 WebHID only works in Chromium browsers (Chrome, Brave, Edge), and only on `https://` or `localhost`.
 Firefox and Safari don't support it.
+
+The easiest way is the hosted version at <https://faxesystem.github.io/ja11-eq/>. To run it locally instead:
 
 ```sh
 git clone https://github.com/faxesystem/ja11-eq.git
