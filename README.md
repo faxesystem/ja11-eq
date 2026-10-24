@@ -57,7 +57,7 @@ WebHID only works in Chromium browsers (Chrome, Brave, Edge), and only on `https
 Firefox and Safari don't support it.
 
 ```sh
-git clone <repo-url> ja11-eq
+git clone https://github.com/faxesystem/ja11-eq.git
 cd ja11-eq
 python3 -m http.server 8790 --bind 127.0.0.1
 ```
